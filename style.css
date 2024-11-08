@@ -1,0 +1,68 @@
+body {
+  background-image: url("https://images.paramount.tech/uri/mgid:arc:imageassetref:mtv.com:d2906a58-a278-499a-af13-93a44e50f404?format=webp");
+  background-size: cover;
+}
+.navbar {
+  border: solid white;
+  background-color: rgb(41, 101, 3);
+  display: flex;
+  height: 64px;
+}
+.imageContainer {
+  border: solid grey;
+  /* height:44px; */
+  margin: 1em;
+  background-color: rgb(162, 17, 181);
+}
+.abd {
+  display: flex; /* Use Flexbox */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  margin: 1em;
+}
+.episodeContainer {
+  width: 100%; /* Full width of the browser */
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden; /* Hide overflow */
+  position: relative; /* Positioning context for the image */
+}
+.qw {
+  width: 100%; /* Make image fill the width of the div */
+  height: 100%; /* Make image fill the height of the div */
+  object-fit: cover; /* Cover the entire div, cropping if necessary */
+  position: absolute; /* Position the image absolutely */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+}
+.iconContainer {
+  /* border:solid lime; */
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: 10px;
+  background-color: ;
+}
+.btnContainer {
+  /* border:solid orange; */
+  width: 70%;
+  margin: 10px;
+}
+.sidebar {
+  height: 100%;
+}
+.logo {
+  height: 100%;
+}
+.mtvLogin {
+  width: 100px;
+  font-size: 18px;
+  border-radius: 12px;
+  margin-top: 12px;
+  background-color: rgb(61, 9, 232);
+  color: yellow;
+  font-family: Atial;
+  margin-left: 65%;
+}
+.mtv {
+  width: 100%;
+}
